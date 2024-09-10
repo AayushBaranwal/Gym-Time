@@ -1,0 +1,116 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('aa.jpg');
+}
+
+.left {
+    position: absolute;
+    left: 60px;
+    top: 22px;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+.mid {
+
+    display: block;
+    width: 100%;
+    margin: 39px auto;
+    text-align: center;
+    /* border: 2px solid rgb(170, 42, 42); */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 33px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.navbar li a {
+    color: rgb(249, 16, 16);
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(14, 238, 14);
+
+}
+
+.left img {
+    width: 123px;
+    filter: invert(10%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(34, 33, 33);
+}
+
+.container {
+    border: 2px solid rgb(255, 251, 251);
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 26px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(225, 13, 13);
+}
+
+.container button {
+    text-align: center;
+    width: 74%;
+    display: block;
+    margin: 20px auto;
+}
+
+.container h1 .self {
+    color: rgb(201, 238, 20);
+}
