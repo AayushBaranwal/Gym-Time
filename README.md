@@ -1,1 +1,1 @@
-# Gym-Time
+A website on gym and fitness related content.
